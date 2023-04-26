@@ -1,0 +1,952 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container-all {
+    display: grid;
+    grid-template-columns: 144rem;
+    grid-template-rows: 89rem 89rem 123.6rem 110rem 90rem 59rem 35.8rem;
+    justify-content: center;
+
+}
+
+.hola {
+    background-image: url(/imagesproyect/dark-hero-3-cover.png);
+
+}
+
+.hello__img {
+    width: 144rem;
+    height: 100rem;
+    display: flex;
+    background: linear-gradient(89.85deg, #000000 0.13%, #000000 0.14%, rgba(0, 0, 0, 0) 99.56%);
+
+}
+
+.hola2 {
+    display: flex;
+}
+
+.hola3 {
+    background-color: #252B42;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hola4 {
+    background: #252B42;
+    display: flex;
+    justify-content: center;
+}
+
+.hola5 {
+    background-color: #252B42;
+    height: 110rem;
+    display: flex;
+    justify-content: center;
+}
+
+.hola6 {
+    background-color: #252B42;
+}
+
+.hola7 {
+    background-color: #252B42;
+
+}
+
+.hola8 {
+    background-color: #252B42;
+    display: flex;
+    justify-content: center;
+}
+
+.hola9 {
+    background-color: darkkhaki;
+}
+
+.title-before {
+    display: flex;
+    width: 15rem;
+    margin-right: 3rem;
+    margin-bottom: 1.3rem;
+    height: 3.2rem;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar-collapse-son {
+    display: flex;
+    width: 100rem;
+    margin-top: 5rem;
+    margin-left: 20rem;
+    height: 10rem;
+
+
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    width: 130rem;
+    height: 90rem;
+
+}
+
+
+.navbar-collapse-son ul {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 3rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.2;
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.lgn-special {
+    margin-left: 18rem;
+}
+
+.btn .btn-vector {
+    width: 21.4rem;
+    height: 5.2rem;
+    background: #23A6F0;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.02rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn .btn-vector::after {
+    content: url(/imagesproyect/first-vector.png);
+    margin-left: 1rem;
+}
+
+/* .btn .btn-vector ::after {
+    content: url(/imagesproyect/Vector.png);
+    width: 30rem;
+    height: 12rem;
+} */
+
+.col-md-8 {
+    display: flex;
+    flex-direction: column;
+    width: 59rem;
+    height: 48rem;
+    margin-top: 10rem;
+    margin-right: 90rem;
+    margin-bottom: 15rem;
+
+}
+
+.col8-father {
+    display: flex;
+    margin-left: 20rem;
+    width: 60rem;
+    height: 40rem;
+
+}
+
+.heading-1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 5.8rem;
+    line-height: 8rem;
+    letter-spacing: 0.2rem;
+    width: 40.2rem;
+    text-transform: uppercase;
+}
+
+.heading-5 {
+    width: 5rem;
+    height: 4rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.1rem;
+    color: #23A6F0;
+
+}
+
+.arrow-right {
+    margin-left: 0.9rem
+}
+
+.headline-text {
+    margin-top: 4rem;
+    height: 10rem;
+    width: 32rem;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0.2rem;
+    color: #FFFFFF;
+}
+
+.btn-jn-us {
+    background: #23A6F0;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.15rem;
+    height: 4.5rem;
+    width: 12.2rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* third container */
+
+.container-3 {
+    width: 105.5rem;
+    height: 85rem;
+    background-color: #252B42;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    width: 69.2rem;
+    height: 13.4rem;
+    background-color: #252B42;
+    margin-top: 16rem;
+}
+
+.heading-6 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.02rem;
+    color: #23A6F0;
+    text-align: center;
+}
+
+.section-title-2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+.paragraph-1 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    color: #FFFFFF;
+    width: 46rem;
+    margin: 0 auto;
+}
+
+.row-2 {
+    width: 68.7rem;
+    height: 29.2rem;
+    background-color: #252B42;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1 {
+    width: 32.9rem;
+    height: 29.2rem;
+    background-color: #FFFFFF;
+
+}
+
+.img-icon {
+    width: 7rem;
+    height: 7.6rem;
+    margin-left: 12.9rem;
+    margin-top: 3.5rem;
+    letter-spacing: 0.01rem;
+}
+
+.headline-sub-5 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.paragrap-headline-1 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #737373;
+    line-height: 2rem;
+    letter-spacing: 0.02rem;
+    width: 12rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.fixed-line {
+    background: #E74040;
+    width: 5rem;
+    height: 0.2rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.card-2 {
+    width: 32.9rem;
+    height: 29.2rem;
+    background-color: #FFFFFF;
+}
+
+.img-icon-2 {
+    width: 7rem;
+    height: 7.6rem;
+    margin-left: 12.9rem;
+    margin-top: 3.5rem;
+    letter-spacing: 0.01rem;
+}
+
+.container-4 {
+    width: 105.5rem;
+    height: 89rem;
+    background: #252B42;
+
+
+}
+
+.row-4 {
+    width: 105.4rem;
+    height: 57rem;
+
+    background: #252B42;
+    margin-top: 16rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.col-md5 {
+    width: 50.7rem;
+    height: 24.6rem;
+    margin-top: 16rem;
+    background: #252B42;
+
+
+}
+
+.heading-1-sub {
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5rem;
+    letter-spacing: 0.02rem;
+    color: #FFFFFF;
+}
+
+.paragrap-subline-1 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.02rem;
+    color: #FFFFFF;
+    width: 35.1rem;
+    margin-top: 3rem;
+}
+
+
+.sub-title-6 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.02rem;
+    color: #23A6F0;
+    width: 9.2rem;
+    height: 2.4rem;
+    margin-top: 2rem;
+}
+
+/* .sub-title-6::after {
+    content: url(/imagesproyect/icon\ arrow-next.png);
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: fit-content;
+} */
+
+.arrow-next {
+    display: inline;
+    margin-left: 0rem;
+    width: 0.7rem;
+    height: 1rem;
+    margin-top: 3rem;
+}
+
+.col-md6 {
+    width: 57.8rem;
+    height: 57.0rem;
+
+    background: #252B42;
+    position: relative;
+
+}
+
+.glasses-img {
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+}
+
+.pink-img {
+    width: 11.5rem;
+    height: 5.8rem;
+
+    position: absolute;
+    top: 10rem;
+    right: 6.8rem;
+}
+
+.white-img {
+    width: 24.7rem;
+    height: 24.7rem;
+    position: absolute;
+    top: 32rem;
+    right: 23rem;
+}
+
+
+.rectangle-blue {
+    position: absolute;
+    right: 13rem;
+    top: 2rem;
+
+}
+
+.fixed-line-2 {
+    background: #E74040;
+    width: 9.4rem;
+    height: 0.7rem;
+}
+
+.container-5 {
+    width: 105.5rem;
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #252B42;
+    align-items: flex-start;
+
+}
+
+.row-5 {
+    width: 69.2rem;
+    height: 14.4rem;
+    background-color: #252B42;
+
+    /* margin-top: 10rem; */
+    margin: 0 auto;
+    margin-bottom: 8rem;
+}
+
+.head-title-9 {
+    width: 11.4rem;
+    height: 2.4rem;
+
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.02rem;
+    color: #23A6F0;
+    margin: 0 auto;
+}
+
+.headline-title2 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5rem;
+    letter-spacing: 0.02rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.paragrap-subline-5 {
+    width: 40rem;
+    height: 4rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin: 0 auto;
+    letter-spacing: 00.02rem;
+    color: #FFFFFF;
+    margin-top: 1rem;
+
+}
+
+.row-6 {
+    position: relative;
+    width: 33rem;
+    height: 67.8rem;
+    background-color: #FFFFFF;
+}
+
+.carrousel-cards {
+    width: 33rem;
+    height: 65.79rem;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.product-cover {
+    width: 33rem;
+    height: 28rem;
+}
+
+.sale-1 {
+    position: absolute;
+    width: 5.1rem;
+    height: 2.4rem;
+    background-color: #E74040;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    letter-spacing: 0.02;
+    text-align: center;
+    padding: 0 1rem;
+    left: 2rem;
+    top: 2rem;
+}
+
+
+.head-subtitle-1 {
+
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.02rem;
+    color: #23A6F0;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.head-subtitle-gpd {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.01;
+    color: #252B42;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.paragraph-2 {
+    width: 28rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.02rem;
+    color: #737373;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.head-title-6 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.02rem;
+    color: #737373;
+    margin-left: 1.6rem;
+}
+
+.arrow-down-png {
+    height: 1.7rem;
+    width: 0.9rem;
+    margin-left: 0.8rem;
+}
+
+.container-20 {
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.price-grey {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.01;
+    color: #BDBDBD;
+}
+
+.price-green {
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 0.01rem;
+    line-height: 2.4rem;
+    color: #40BB15;
+}
+
+.price-container {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+}
+
+.time-text {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.02;
+    color: #737373;
+}
+
+.icon-text-container {
+    display: flex;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.btn-blue {
+    display: flex;
+    gap: 1.1rem;
+
+    width: 14.8rem;
+    height: 4.4rem;
+    padding: 1rem 2rem;
+    border: 0.1rem solid #23A6F0;
+    border-radius: 3.7rem;
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.02rem;
+    margin-top: 1.9rem;
+    margin-left: 1rem;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.arrow-btn {
+    margin-top: 0.3rem;
+}
+
+.container-three-cards {
+    width: 104.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+
+}
+
+.row-7 {
+    width: 33rem;
+    height: 67.8rem;
+
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.img-cover-guylooking {
+    width: 33rem;
+    height: 28rem;
+}
+
+.sale-2 {
+    position: absolute;
+    width: 5.1rem;
+    height: 2.4rem;
+    background-color: #E74040;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    letter-spacing: 0.02;
+    text-align: center;
+    padding: 0 1rem;
+    left: 2rem;
+    top: 2rem;
+}
+
+.frame-4 {
+    position: absolute;
+    right: 2rem;
+}
+
+.container-6-all {
+    display: flex;
+    flex-direction: column;
+    width: 105.5rem;
+    height: 86rem;
+    background-color: #252B42;
+    margin: 0 auto;
+}
+
+.row-8 {
+    width: 68rem;
+    height: 13.4rem;
+    background-color: #252B42;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.f-products {
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.carrousel-cards-2 {
+    display: flex;
+    margin: 0 auto;
+    width: 90rem;
+    height: 60rem;
+    background-color: #252B42;
+    position: relative;
+    gap: 2rem;
+}
+
+.card-01 {
+    width: 42rem;
+    height: 40rem;
+    background-color: #FFFFFF;
+    margin-top: 10rem;
+    margin-left: 2rem;
+
+}
+
+.testimonial-girl-img {
+    height: 11.8rem;
+    border-radius: 20rem;
+    position: absolute;
+    top: 12rem;
+    left: 18rem;
+}
+
+.paragraph-6 {
+    margin-top: 16rem;
+    width: 15.9rem;
+    margin-left: 15rem;
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    color: #737373;
+}
+
+.stars-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.headline-subtitle-9 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.1rem;
+    color: #252B42;
+    text-align: center;
+}
+
+.headlinne-subtitle-10 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: #737373;
+    letter-spacing: 0.02;
+}
+
+.card-02 {
+    position: relative;
+    width: 42rem;
+    height: 40rem;
+    background-color: #FFFFFF;
+    margin-top: 10rem;
+    margin: left 2rem;
+}
+
+.testimonial-man-img {
+    position: absolute;
+    height: 11.8rem;
+    border-radius: 20rem;
+    position: absolute;
+    top: 2rem;
+    left: 16rem;
+}
+
+.row-11 {
+    width: 69.1rem;
+    height: 13.4rem;
+    background-color: #252B42;
+    margin: 0 auto;
+}
+
+.headline-subtitle-11 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5rem;
+    letter-spacing: 0.2rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.paragrap-final {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.02rem;
+    color: #FFFFFF;
+    text-align: center;
+    width: 46.9rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.container-subscribe {
+    display: flex;
+    justify-content: center;
+    width: 80rem;
+    height: 15rem;
+    background-color: #252B42;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.input-type-text {
+    width: 60rem;
+    height: 5rem;
+    font-size: 1.4;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    margin-left: 2rem;
+    margin-top: 10rem;
+    border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5rem;
+}
+
+.last-btn {
+    width: 10rem;
+    height: 5rem;
+    background: #23A6F0;
+    color: #FFFFFF;
+    font-size: 400;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.02rem;
+    margin-top: 10rem;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.container-last-lt {
+    display: flex;
+    justify-content: center;
+    width: 105rem;
+    height: 30rem;
+    background-color: #252B42;
+}
+
+.row-12 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 105rem;
+    height: 20rem;
+    background-color: #252B42;
+    margin-top: 5rem;
+    gap: 2rem;
+    margin-left: 10rem;
+}
+
+.column-11 {
+    width: 23.8rem;
+    height: 14.6rem;
+    background-color: #252B42;
+
+}
+
+.column-12 {
+    width: 23.8rem;
+    height: 14.6rem;
+    background-color: #252B42
+}
+
+.column-13 {
+    width: 23.8rem;
+    height: 14.6rem;
+    background-color: #252B42;
+}
+
+.column-14 {
+    width: 23.8rem;
+    height: 14.6rem;
+    background-color: #252B42;
+}
+
+.last-h3 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.01;
+    color: #FFFFFF;
+}
+
+.last-paragraph {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.02rem;
+    color: #FFFFFF;
+
+}
+
+.last-paragraph-1 {
+    margin-top: 2rem;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 2rem;
+    height: 2.4rem;
+    margin-top: 2rem;
+}
+
+.last-paragraph-2 {
+    margin-top: 0.7rem;
+}
